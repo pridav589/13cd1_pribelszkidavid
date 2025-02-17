@@ -3,10 +3,20 @@ import React from "react";
 const Home = () => {
     return (
         <div>
-            <h1>Az olimpia története</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id repudiandae dolorem dolore aut aperiam laudantium? Consequatur hic doloribus temporibus culpa facere veritatis unde, aut libero perspiciatis nobis. Nemo rerum ducimus placeat animi error maxime commodi mollitia labore aperiam asperiores. Veritatis numquam, natus commodi sint fuga corrupti omnis officia dignissimos magnam quo veniam animi praesentium soluta odit totam minima maiores, dolorem aliquid vitae, officiis dolore minus? Vel saepe eaque quibusdam ullam, commodi alias placeat consequuntur! Cum nam repellat maxime nesciunt facere illum recusandae molestias repudiandae dicta quod, soluta quasi excepturi nihil, nulla consequuntur fugiat doloribus assumenda et. Dolor facere provident sapiente!
-            </p>
+            <article className="pa3 pa5-ns"></article>
+            <h1 className="f3 f1-m f-headline-l">Az olimpia története</h1>
+            <p className="measure lh-copy">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+    vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+    no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  </p>
+  <p className="measure lh-copy">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+    vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+    no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  </p>
         </div>
     )
 }
